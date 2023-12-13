@@ -1,0 +1,120 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+    background-image: url('https://cdn.dribbble.com/users/1692636/screenshots/5321405/attachments/1154096/5-d_full.png');
+
+    background-size: cover;
+
+}
+
+
+.main_container {
+
+    margin: auto;
+
+    color: #1B4242;
+
+    margin: auto;
+
+    text-align: center;
+
+    background-size: cover;
+
+
+}
+
+
+.main_container>div {
+    padding: 20px;
+    margin: auto;
+
+    margin-top: 20px;
+
+
+
+    border-radius: 6px;
+
+}
+
+.main_container>div:first-child {
+
+    width: 25%;
+
+
+    text-align: center;
+
+
+    border: 1px solid #ccc;
+
+    margin-top: 50px;
+}
+
+.main_container>div:last-child {
+
+    width: 30%;
+    height: 400px;
+
+    text-align: center;
+
+    background-image: url('https://www.pngall.com/wp-content/uploads/9/White-Plate.png');
+
+    background-size: cover;
+}
+
+#selective_div {
+
+    padding: 5px;
+
+    display: flex;
+}
+
+#selective_div>button {
+
+    display: block;
+
+    margin: 10px auto;
+
+    width: max-content;
+    height: 30px;
+
+    background-color: #87C4FF;
+
+
+    border: none;
+
+    border-radius: 6px;
+
+    font-weight: bold;
+
+    color: #363062;
+
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#selective_div>button:hover {
+    cursor: pointer;
+
+    background: linear-gradient(0deg, rgb(228, 71, 71) 0%, rgb(250, 171, 1) 100%);
+
+    color: #1e1759;
+
+
+}
+
+#image_order {
+    width: 40%;
+
+    margin: auto;
+
+
+}
+
+#image_order>img {
+    width: 100%;
+    height: 100%;
+}
